@@ -8,7 +8,7 @@ tech:
   - React
   - Javascript
   - Redux
-  - HTML , CSS
+  - HTML,CSS
 ---
 
 A single space where you can think, write, and plan your day. Capture your thoughts here.
