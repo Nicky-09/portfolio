@@ -308,7 +308,7 @@ const Featured = () => {
     {
       featured: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/content/featured/" } }
-        sort: { fields: [frontmatter___date], order: ASC }
+        sort: { fields: [frontmatter___date], order: DESC }
       ) {
         edges {
           node {
@@ -332,6 +332,7 @@ const Featured = () => {
   `);
 
   const featuredProjects = data.featured.edges.filter(({ node }) => node);
+
   const revealTitle = useRef(null);
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();

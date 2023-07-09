@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'HTML', 'CSS'];
+  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Redux', 'HTML', 'CSS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,9 +136,9 @@ const About = () => {
           <div>
             <p>
               Courteous and enthusiastic, I am interested in IT and everything around its orbit. I
-              recently began to be fascinated by web programming. My recently-finished software
-              developer internship experience has shaped my code evaluation and website development
-              knowledge.
+              recently began to be fascinated by web programming. Proficient in utilizing a broad
+              range of languages, platforms, and frameworks. Committed to staying current with the
+              latest technologies and industry trends.
             </p>
 
             <p>
