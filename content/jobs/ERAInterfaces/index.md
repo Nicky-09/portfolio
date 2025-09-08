@@ -1,9 +1,9 @@
 ---
-date: '2017-04-01'
+date: '2017-01-10'
 title: 'Software Engineer'
 company: 'ERA Interfaces'
 location: 'Bengaluru'
-range: 'March 2022- June 2022'
+range: 'January 2022- June 2022'
 url: 'https://www.erainterfaces.com/home'
 ---
 
